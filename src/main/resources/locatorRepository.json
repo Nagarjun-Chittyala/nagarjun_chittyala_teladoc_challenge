@@ -1,0 +1,105 @@
+{
+  "pages": [
+    {
+      "page": "Web Table",
+      "locators": [
+        {
+          "identifier": "add_user_button",
+          "locator": "//button[contains(text(),'Add User')]",
+          "type": "XPATH"
+        },
+        {
+          "identifier": "first_name_text_field",
+          "locator": "FirstName",
+          "type": "NAME"
+        },
+        {
+          "identifier": "last_name_text_field",
+          "locator": "LastName",
+          "type": "NAME"
+        },
+        {
+          "identifier": "user_name_text_field",
+          "locator": "UserName",
+          "type": "NAME"
+        },
+        {
+          "identifier": "password_text_field",
+          "locator": "Password",
+          "type": "NAME"
+        },
+        {
+          "identifier": "customer_name_radio",
+          "locator": "//label[text()='%s']/input",
+          "type": "XPATH"
+        },
+        {
+          "identifier": "role_dropdown",
+          "locator": "RoleId",
+          "type": "NAME"
+        },
+        {
+          "identifier": "email_text_field",
+          "locator": "Email",
+          "type": "NAME"
+        },
+        {
+          "identifier": "cell_phone_text_field",
+          "locator": "Mobilephone",
+          "type": "NAME"
+        },
+        {
+          "identifier": "save_button",
+          "locator": "//button[text()='Save']",
+          "type": "XPATH"
+        },
+        {
+          "identifier": "first_name_entry_in_table",
+          "locator": "//td[text()='%s']/preceding-sibling::td[2]",
+          "type": "XPATH"
+        },
+        {
+          "identifier": "last_name_entry_in_table",
+          "locator": "//td[text()='%s']/preceding-sibling::td[1]",
+          "type": "XPATH"
+        },
+        {
+          "identifier": "user_name_entry_in_table",
+          "locator": "//td[text()='%s']",
+          "type": "XPATH"
+        },
+        {
+          "identifier": "customer_entry_in_table",
+          "locator": "//td[text()='%s']/following-sibling::td[2]",
+          "type": "XPATH"
+        },
+        {
+          "identifier": "role_entry_in_table",
+          "locator": "//td[text()='%s']/following-sibling::td[3]",
+          "type": "XPATH"
+        },
+        {
+          "identifier": "email_entry_in_table",
+          "locator": "//td[text()='%s']/following-sibling::td[4]",
+          "type": "XPATH"
+        },
+        {
+          "identifier": "cell_phone_entry_in_table",
+          "locator": "//td[text()='%s']/following-sibling::td[5]",
+          "type": "XPATH"
+        },
+        {
+          "identifier": "delete_user_button",
+          "locator": "//td[text()='%s']/following-sibling::td/button[@ng-click='delUser()']",
+          "type": "XPATH"
+        },
+        {
+          "identifier": "ok_button",
+          "locator": "//button[text()='OK']",
+          "type": "XPATH"
+        }
+
+      ]
+    }
+  ]
+}
